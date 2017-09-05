@@ -1,0 +1,105 @@
+body {
+  background-color: #B09FB9;
+  font-family:Verdana;
+}
+
+.player {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	position:relative;
+	
+}
+
+h1 {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	position:relative;
+	color:#B94787;
+	
+	
+}
+
+.search-form {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	position:relative;
+
+}
+
+#now {
+	display:flex;
+	justify-content:center;
+	flex-wrap:wrap;
+	position:relative;
+	border-bottom:3px solid black;
+	padding-bottom:30px;
+	font-size:12px;
+	color:#373636;
+}
+
+#search {
+	width:800px;
+	height:30px;
+	font-size:20px;
+	margin-left:285px;
+	width:750px;
+	border:2px solid #B94787;
+	border-radius:5px;
+}
+
+#music-player {
+	width:850px;
+	height:30px;
+}
+
+.search {
+	padding-top:40px;
+	padding-bottom:40px;
+	border-bottom:3px solid #373636;
+}
+
+#xcom {
+	margin:10px;
+	text-align:center;
+	width:220px;
+}
+
+#results {
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	position:relative;
+}
+
+img {
+	width:160px;
+	height:auto;
+	border-radius: 10px;
+	border: 2px solid black;
+}
+
+img:hover {
+	height:auto;
+	width:180px;
+	border:4px solid #B94787;
+	box-shadow:5px 5px 5px;
+}
+
+#song {
+	color: #B94787;
+	font-size:15px;
+}
+
+#Artist {
+	font-size:12px;
+	color:#373636;
+}
+
+button {
+	font-size:24px;
+	border:3px solid #B94787;
+	border-radius:5px;
+}
